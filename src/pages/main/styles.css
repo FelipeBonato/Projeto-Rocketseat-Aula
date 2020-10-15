@@ -1,0 +1,62 @@
+.product-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.product-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.product-list article a {
+    height: 42px;
+    border-radius: 5px;    /*Arredondar as bordas*/
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;       /*negrito*/
+    font-size: 16px;
+    text-decoration: none;  /* anular sublinhado*/
+    display: flex;
+    justify-content: center;  /* horrizontal */
+    align-items: center;      /* vertical */
+    transition: all 0.2s;   /*efeito em todos efeitos em 0.2 segundos*/
+}
+
+.product-list article a:hover {   /*quando passar o mouse mudar a cor*/
+    background: #da552f;        /*fundo laranja*/
+    color: #fff;                /*letra branca*/
+}
+
+.product-list .actions {
+    display: flex;
+    justify-content: space-between;  /*separa um para esquerda e outro para direita*/
+    margin-bottom: 20px;
+}
+
+.product-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;              /*tirando borda padrao do button*/
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;          /* o cursor do mouse muda para maozinha */
+}
+
+.product-list .actions button:hover {
+    opacity: 0.7;                       /*efeito de opacidade no button*/
+}
